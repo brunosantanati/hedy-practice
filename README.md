@@ -25,4 +25,14 @@ doit run devdb
 doit run devserver
 Access your local Hedy version on http://localhost:8080/ with username admin and password 123456.
 For more Details see the doc named "Hedy Development Process"
+
+Build:
+doit run backend
+Run the server:
+python3 app.py
+or everything at once:
+doit run devserver
+
+Run unit tests:
+python -m pytest -n auto
 ```
