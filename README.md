@@ -11,6 +11,7 @@
 ## PRs
 
 [1st PR](https://github.com/hedyorg/hedy/pull/5640)  
+[2nd PR](https://github.com/hedyorg/hedy/pull/5662)  
 
 ## Useful commands
 ```
