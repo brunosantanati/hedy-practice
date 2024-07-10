@@ -17,23 +17,26 @@
 ```
 Hedy Development Process:
 
-apt install python3.10-venv
-python3 -m venv .env
-source .env/bin/activate
+$ apt install python3.10-venv
+$ python3 -m venv .env
+$ source .env/bin/activate
 Inside the .env virtual environment:
-pip install -r requirements.txt
-doit run devdb
-doit run devserver
+(.env) $ pip install -r requirements.txt
+(.env) $ doit run devdb
+(.env) $ doit run devserver
 Access your local Hedy version on http://localhost:8080/ with username admin and password 123456.
 For more Details see the doc named "Hedy Development Process"
 
 Build:
-doit run backend
+(.env) $ doit run backend
 Run the server:
-python3 app.py
+(.env) $ python3 app.py
 or everything at once:
-doit run devserver
+(.env) $ doit run devserver
 
 Run unit tests:
-python -m pytest -n auto
+(.env) $ python -m pytest -n auto
+
+Exit Python virtual environment:
+(.env) $ deactivate
 ```
